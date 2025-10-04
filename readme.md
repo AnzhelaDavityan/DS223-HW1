@@ -88,7 +88,7 @@ source env/bin/activate    # For macOS/Linux
 env\Scripts\activate       # For Windows
 ```
 ### 3. Install dependencies  
-Install all required Python libraries listed in the `requirements.txt` file:  
+Install all required Python libraries:  
 ```bash
 pip install -r requirements.txt
 ```
