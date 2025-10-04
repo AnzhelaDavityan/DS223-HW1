@@ -103,7 +103,7 @@ Install all required Python libraries:
    ```
    Then open and run all cells in the file:  
    ```
-   scripts/DS223-HW1.ipynb
+   DS223-HW1.ipynb
    ```
 ## References
 
