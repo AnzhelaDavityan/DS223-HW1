@@ -80,3 +80,57 @@ Follow these steps to reproduce the analysis and results.
 git clone https://github.com/AnzhelaDavityan/DS223-HW1.git
 cd DS223-HW1
 
+### 2. Create a virtual environment  
+It is recommended to use a virtual environment to isolate dependencies.  
+```bash
+python -m venv env
+source env/bin/activate    # For macOS/Linux
+env\Scripts\activate       # For Windows
+
+### 3. Install dependencies  
+Install all required Python libraries listed in the `requirements.txt` file:  
+```bash
+pip install -r requirements.txt
+
+   The key libraries include:  
+   - `pandas` – data manipulation and preprocessing  
+   - `numpy` – numerical computations  
+   - `matplotlib` and `seaborn` – data visualization  
+   - `scipy` – Bass Model parameter estimation (`curve_fit`)  
+   - `openpyxl` – reading Excel files
+
+4. **Run the Jupyter Notebook**  
+   Start Jupyter Notebook in your working directory:  
+   ```bash
+   jupyter notebook
+   ```
+   Then open and run all cells in the file:  
+   ```
+   scripts/DS223-HW1.ipynb
+   ```
+## References
+
+1. **TIME Magazine (2024).** *Best Inventions 2024.*  
+   Retrieved from [https://time.com/best-inventions-2024](https://time.com/best-inventions-2024)
+
+2. **Uplift Desk.** *Uplift Desk Official Website.*  
+   Retrieved from [https://www.upliftdesk.com](https://www.upliftdesk.com)
+
+3. **Fully.** *Fully Jarvis Standing Desk.*  
+   Retrieved from [https://www.fully.com/jarvis-standing-desk.html](https://www.fully.com/jarvis-standing-desk.html)
+
+4. **Beflo (2024).** *Tenon Smart Adjustable Desk.*  
+   Retrieved from [https://gobeflo.com/?srsltid=AfmBOoqm_s6s0OFIdccOect8x8dmKdmqI6T0kKwCarZJbqomQP5lru8L](https://gobeflo.com/?srsltid=AfmBOoqm_s6s0OFIdccOect8x8dmKdmqI6T0kKwCarZJbqomQP5lru8L)
+
+5. **Zhao, Y. (2024).** *Internet of Things Technology in Smart Furniture: An Overview.*  
+   *Journal of Electrotechnology, Electrical Engineering and Management*, 7(1), 107–112.  
+   Retrieved from [https://doi.org/10.23977/jeeem.2024.070114](https://doi.org/10.23977/jeeem.2024.070114)
+
+6. **Statista (2024a).** *Smart Furniture Market Size Worldwide from 2016 to 2025 (in million U.S. dollars).*  
+   Retrieved from [https://www.statista.com/statistics/1069616/smart-furniture-market-size-worldwide/](https://www.statista.com/statistics/1069616/smart-furniture-market-size-worldwide/)
+
+7. **Statista (2024b).** *Top 10 Countries by Smart Furniture Revenue (2024).*  
+   Retrieved from [https://www.statista.com/forecasts/758649/revenue-of-the-office-furniture-market-worldwide-by-country](https://www.statista.com/forecasts/758649/revenue-of-the-office-furniture-market-worldwide-by-country)
+
+8. **Course Slides (2024).** *DS-223: Bass Model.* [PDF file]. American University of Armenia.
+
