@@ -89,9 +89,6 @@ env\Scripts\activate       # For Windows
 ```
 ### 3. Install dependencies  
 Install all required Python libraries:  
-```bash
-pip install -r requirements.txt
-```
    The key libraries include:  
    - `pandas` – data manipulation and preprocessing  
    - `numpy` – numerical computations  
