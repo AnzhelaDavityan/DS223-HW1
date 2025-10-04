@@ -78,20 +78,20 @@ Follow these steps to reproduce the analysis and results.
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/AnzhelaDavityan/DS223-HW1.git
-cd DS223-HW1
-
+cd <your-repo-name>
+```
 ### 2. Create a virtual environment  
 It is recommended to use a virtual environment to isolate dependencies.  
 ```bash
 python -m venv env
 source env/bin/activate    # For macOS/Linux
 env\Scripts\activate       # For Windows
-
+```
 ### 3. Install dependencies  
 Install all required Python libraries listed in the `requirements.txt` file:  
 ```bash
 pip install -r requirements.txt
-
+```
    The key libraries include:  
    - `pandas` – data manipulation and preprocessing  
    - `numpy` – numerical computations  
