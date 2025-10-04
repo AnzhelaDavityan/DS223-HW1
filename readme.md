@@ -78,7 +78,7 @@ Follow these steps to reproduce the analysis and results.
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/AnzhelaDavityan/DS223-HW1.git
-cd <your-repo-name>
+cd DS223-HW1
 ```
 ### 2. Create a virtual environment  
 It is recommended to use a virtual environment to isolate dependencies.  
